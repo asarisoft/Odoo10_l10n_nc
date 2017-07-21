@@ -94,8 +94,6 @@
       <field name="user_type_id" ref="account.data_account_type_current_assets"/>
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
     </record>
-
-
    
     <record id="l10n_nc_pcg_chart_template" model="account.chart.template">
     <field name="currency_id" ref="base.XPF"/>

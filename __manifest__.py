@@ -32,6 +32,7 @@ configuration of their taxes and fiscal positions manually.
     'depends': ['base_iban', 'account', 'base_vat'],
     'data': [
         'data/l10n_nc_chart_data.xml',
+        'data/decimal_price.xml',
         'data/account_chart_template_data.xml',
         'views/l10n_nc_view.xml',
         'data/account_tax_data.xml',
