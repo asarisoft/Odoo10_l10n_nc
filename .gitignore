@@ -1,0 +1,6 @@
+# ignore all file ending pyo
+*.pyo
+*.pyc
+
+# ignore all files ending with ~
+*~

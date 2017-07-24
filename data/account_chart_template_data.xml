@@ -96,6 +96,6 @@
     </record>
    
     <record id="l10n_nc_pcg_chart_template" model="account.chart.template">
-    <field name="currency_id" ref="base.XPF"/>
+      <field name="currency_id" ref="base.XPF"/>
     </record>
 </odoo>
