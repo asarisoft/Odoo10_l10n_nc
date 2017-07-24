@@ -9,7 +9,7 @@
 
   	<!-- Chart template -->
     <record id="l10n_nc_pcg_chart_template" model="account.chart.template">
-        <field name="name">Plan Comptable Général (France)</field>
+        <field name="name">Plan Comptable Général (NC)</field>
         <field name="currency_id" ref="base.XPF"/>
         <field name="code_digits" eval="6"/>
         <field name="bank_account_code_prefix">512</field>
@@ -19,5 +19,9 @@
 
     <record id="pcg_58" model="account.account.template">
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
+    </record>
+
+    <record id="base.main_company" model="res.company">
+      <field name="currency_id" ref="base.XPF"/>      
     </record>
 </odoo>

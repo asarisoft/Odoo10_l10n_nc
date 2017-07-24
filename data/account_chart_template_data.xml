@@ -12,19 +12,6 @@
 
     <menuitem id="account_reports_fr_statements_menu" name="French Statements" parent="account.menu_finance_reports" sequence="3" groups="account.group_account_user"/>
 
-    <!--
-        Plan comptable général pour la France.
-        Prend en compte les arrêtés du CRC publiés au Journal officiel
-        jusqu'à décembre 2007
-
-        Version du fichier : 12-04-2008
-
-        Utilise les 'account types' de addons/account/data/data_account_type.xml
-      -->
-
-
-    <!-- Account Templates -->
-
     <record id="pcg_445781" model="account.account.template">
       <field name="name">TSS</field>
       <field name="code">445781</field>
@@ -127,20 +114,26 @@
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
     </record>
 
-        <record id="pcg_766" model="account.account.template">
+    <record id="pcg_766" model="account.account.template">
       <field name="name">Gains de change</field>
       <field name="code">766</field>
       <field name="user_type_id" ref="account.data_account_type_other_income"/>
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
     </record>
 
-        <record id="pcg_666" model="account.account.template">
+    <record id="pcg_666" model="account.account.template">
       <field name="name">Pertes de change</field>
       <field name="code">666</field>
       <field name="user_type_id" ref="account.data_account_type_expenses"/>
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
     </record>
 
+    <record id="pcg_6278" model="account.account.template">
+      <field name="name">Autres frais et commissions sur prestations de services</field>
+      <field name="code">6278</field>
+      <field name="user_type_id" ref="account.data_account_type_expenses"/>
+      <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
+    </record>
 
     <record id="l10n_nc_pcg_chart_template" model="account.chart.template">
       <field name="property_account_receivable_id" ref="fr_pcg_recv"/>

@@ -222,8 +222,8 @@
 
     <record model="account.tax.template" id="tss_reduit">
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
-      <field name="name">TGC 0,25%</field>
-      <field name="description">TGC taux réduit</field>
+      <field name="name">TGC&#xa0;0,25%</field>
+      <field name="description">TGCU+00A0taux réduit</field>
       <field name="amount" eval="0.25"/>
       <field name="amount_type">percent</field>
       <field name="refund_account_id" ref="pcg_445782"/>
@@ -235,7 +235,7 @@
 
     <record model="account.tax.template" id="tss_specifique">
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
-      <field name="name">TGC 0,35%</field>
+      <field name="name">TGC&#xa0;0,35%</field>
       <field name="description">TGC taux spécifique</field>
       <field name="amount" eval="0.35"/>
       <field name="amount_type">percent</field>
@@ -248,7 +248,7 @@
 
     <record model="account.tax.template" id="tss_normal">
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
-      <field name="name">TGC 0,5%</field>
+      <field name="name">TGC&#xa0;0,5%</field>
       <field name="description">TGC taux normal</field>
       <field name="amount" eval="0.5"/>
       <field name="amount_type">percent</field>
@@ -261,7 +261,7 @@
 
     <record model="account.tax.template" id="tss_superieur">
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
-      <field name="name">TGC 1%</field>
+      <field name="name">TGC&#xa0;1%</field>
       <field name="description">TGC taux supérieur</field>
       <field name="amount" eval="1"/>
       <field name="amount_type">percent</field>
@@ -291,7 +291,7 @@
 
     <record model="account.tax.template" id="tss_deductible_reduit">
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
-      <field name="name">TGC 0,25%</field>
+      <field name="name">TGC&#xa0;0,25%</field>
       <field name="description">TGC taux réduit deductible</field>
       <field name="amount" eval="0.25"/>
       <field name="amount_type">percent</field>
@@ -304,7 +304,7 @@
 
     <record model="account.tax.template" id="tss_deductible_specifique">
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
-      <field name="name">TGC 0,35%</field>
+      <field name="name">TGC&#xa0;0,35%</field>
       <field name="description">TGC taux spécifique déductible</field>
       <field name="amount" eval="0.35"/>
       <field name="amount_type">percent</field>
@@ -317,7 +317,7 @@
 
     <record model="account.tax.template" id="tss_deductible_normal">
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
-      <field name="name">TGC 0,5%</field>
+      <field name="name">TGC&#xa0;0,5%</field>
       <field name="description">TGC taux normal déductible</field>
       <field name="amount" eval="0.5"/>
       <field name="amount_type">percent</field>
@@ -330,7 +330,7 @@
 
     <record model="account.tax.template" id="tss_deductible_supperieur">
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
-      <field name="name">TGC 1%</field>
+      <field name="name">TGC&#xa0;1%</field>
       <field name="description">TGC taux supérieur déductible</field>
       <field name="amount" eval="1"/>
       <field name="amount_type">percent</field>
