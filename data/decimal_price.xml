@@ -5,9 +5,9 @@
         <field name="digits">0</field>
     </record>
 
-    <record id="account.decimal_price" model="decimal.precision">
+<!--     <record id="decimal_account" model="decimal.precision">
         <field name="name">Account</field>
         <field name="digits">0</field>
-    </record>
+    </record> -->
 
 </odoo>

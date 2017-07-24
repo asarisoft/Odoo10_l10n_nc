@@ -6,7 +6,7 @@
 -->
 
     <!-- Account Tags -->
-
+<!-- 
         <record id="tax_ACH-20_0" model="account.account.tag">
             <field name="name">ACH-20.0</field>
             <field name="applicability">taxes</field>
@@ -201,7 +201,7 @@
             <field name="name">8.5</field>
             <field name="applicability">taxes</field>
         </record>
-
+ -->
 
 <!-- VENTES Tax excluded from price -->
     <record model="account.tax.template" id="tss">

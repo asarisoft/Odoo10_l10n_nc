@@ -4,7 +4,7 @@
 # Copyright (c) 2008 JAILLET Simon - CrysaLEAD - www.crysalead.fr
 
 {
-    'name': 'L10n_nc',
+    'name': 'l10n_nc',
     'version': '1.2',
     'category': 'Localization',
     'description': """
@@ -36,6 +36,7 @@ configuration of their taxes and fiscal positions manually.
         'data/account_chart_template_data.xml',
         'views/l10n_nc_view.xml',
         'data/account_tax_data.xml',
+        'data/account_fiscal_position_template_data.xml',
         'data/account_chart_template_data.yml',
     ],
 }

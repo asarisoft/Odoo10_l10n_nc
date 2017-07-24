@@ -9,3 +9,8 @@ class ResCompany(models.Model):
 
     siret = fields.Char(string='SIRET', size=14)
     ape = fields.Char(string='APE')
+
+    @api.model
+    def _get_user_currency(self):
+        currency_id = self.env.ref('base.XPF')
+        return super(ResCompany, self)._get_user_currency()
