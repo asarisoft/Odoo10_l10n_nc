@@ -5,7 +5,7 @@
     'category': 'Localization',
     'description': """
 This is the module to manage the accounting chart for New Caledonia in Odoo.
-========================================================================
+============================================================================
 
 This module is a copy of the l10n_fr module.
 
