@@ -19,7 +19,7 @@
     <record model="account.tax.template" id="tss_reduit">
       <field name="chart_template_id" ref="l10n_nc_pcg_chart_template"/>
       <field name="name">TGC&#xa0;0,25%</field>
-      <field name="description">TGCU+00A0taux réduit</field>
+      <field name="description">TGC taux réduit</field>
       <field name="amount" eval="0.25"/>
       <field name="amount_type">percent</field>
       <field name="refund_account_id" ref="pcg_445782"/>
